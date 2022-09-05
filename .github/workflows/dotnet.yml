@@ -20,4 +20,4 @@ jobs:
     - name: Build
       run: |
         dotnet restore
-        dotnet build --no-restore -warnaserror
+        dotnet build --no-restore -warnaserror -clp:NoSummary
